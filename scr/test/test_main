@@ -1,11 +1,9 @@
-public class Test {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("why work");
-    }
+public class TestmainTest {
 
-    // Simple method to return a greeting message, which we will test
-    public String greet(String name) {
-        return "Hello " + name;
+    @Test
+    public void testGreet() {
+        Test testObj = new Test(); // Create an instance of the class to test
+        String result = testObj.greet("World"); // Call the greet method
+        assertEquals("Hello World", result); // Assert that the result is what we expect
     }
 }
