@@ -3,7 +3,7 @@ public class TestmainTest {
     @Test
     public void testGreet() {
         Test testObj = new Test(); // Create an instance of the class to test
-        String result = testObj.greet("World"); // Call the greet method
+        String result = testObj.greet("Word"); // Call the greet method
         assertEquals("Hello World", result); // Assert that the result is what we expect
     }
 }
